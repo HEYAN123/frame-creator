@@ -19,7 +19,7 @@ const RC = `${HOME}` + `\\.frame-createrc`;
 // 模板下载地址，配合gitHub api
 // // https://api.github.com/${type}/${registry}/repos
 var DEFAULTS = {
-    registry: 'lifuqiang2019',
+    registry: 'HEYAN123',
     type: 'users'
 };
 
