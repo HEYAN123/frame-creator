@@ -1,6 +1,6 @@
 {
   "name": "frame-creator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "自由切换源的脚手架",
   "main": "index.js",
   "bin": {
