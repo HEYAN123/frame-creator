@@ -17,8 +17,6 @@ $ cnpm install -g frame-creator
 $ frame-create registry 查看当前指向的github账号（默认是HEYAN123）
 $ frame-create registry set <GitHubAccount> 配置指向的github账号
 $ frame-create init template-name project-name  根据已有模板初始化一个项目
-$ frame-create config set <key> <value>  修改配置信息
-$ frame-create config get [<key>]  查看配置信息
 $ frame-create -v  查看当前版本信息
 $ frame -h  查看帮助信息
 ```
