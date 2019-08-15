@@ -1,7 +1,5 @@
 # frame-creator
 
-- 参考教程：https://juejin.im/post/5d37d982e51d45108c59a635
-
 ## 说明
 
 - 基于更快速地构建一个本人喜欢用的初始项目模板，而不是复制粘贴或者从零配置的初衷，搭建本脚手架方便初始化项目。
@@ -12,8 +10,6 @@
 ```bash
 $ cnpm install -g frame-creator
 ```
-
-
 
 ## 指令说明
 

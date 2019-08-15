@@ -1,22 +1,19 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
-exports.getAll = undefined;
+exports.getAll = void 0;
 
-var _constants = require('./constants');
+var _constants = require("./constants");
 
 // import { decode, encode } from 'ini';
 // import { promisify } from 'util';
 // import chalk from 'chalk';
 // import fs from 'fs';
-
 // const exits = promisify(fs.exists);
 // const readFile = promisify(fs.readFile);
 // const writeFile = promisify(fs.writeFile);
-
-
 // export const get = async (key) => {
 //     const exit = await exits(RC);
 //     let opts;
@@ -27,12 +24,9 @@ var _constants = require('./constants');
 //     }
 //     return '';
 // }
-
-const getAll = exports.getAll = () => {
-    return _constants.DEFAULTS;
-};
-
-// export const set = async (key, value) => {
+const getAll = () => {
+  return _constants.DEFAULTS;
+}; // export const set = async (key, value) => {
 //     const exit = await exits(RC);
 //     let opts;
 //     if (exit) {
@@ -52,7 +46,6 @@ const getAll = exports.getAll = () => {
 //     }
 //     await writeFile(RC, encode(opts), 'utf8');
 // }
-
 // export const remove = async (key) => {
 //     const exit = await exits(RC);
 //     let opts;
@@ -63,3 +56,6 @@ const getAll = exports.getAll = () => {
 //         await writeFile(RC, encode(opts), 'utf8');
 //     }
 // }
+
+
+exports.getAll = getAll;

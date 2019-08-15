@@ -9,9 +9,13 @@ import chalk from 'chalk';
 import symbol from 'log-symbols';
 
 let init = async (templateName, projectName) => {
+    if(!projectName) {
+        console.log(chalk.redBright('please enter a project name!'));
+        return;
+    }
     // 如果项目不存在
     if(!fs.existsSync(projectName)) {
-        // 命令行交互
+        // 命令行交互S
         inquirer.prompt([
             {
                 name: 'description',
